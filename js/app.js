@@ -63,9 +63,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 
     let stringSum = ( a + " and " + b + " and " + c + " sum to " + sum2 + ".")
     let stringMult = ("The product of " + a + " and " + b + " and " + c + " is " + multiply2 + ".")
-    console.log(stringSum)
-    console.log(stringMult)
-    return [stringSum, stringMult]
+    return [sum2, multiply2, stringSum, stringMult]
 }
 
 // // Here is the test for sumAndMultiply(); uncomment it to run it
